@@ -853,3 +853,49 @@ ul {
     display: block;
     border-radius: var(--radius-md);
 }
+/* PARTE RELACIONADA A RESPONSIVIDADE (MOBILE) */
+@media (max-width: 768px) {
+    .section {
+        padding: 64px 0;
+    }
+
+    .hero {
+        padding: 40px 0 64px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.95rem;
+    }
+
+    .section-header h2,
+    .about-content h2,
+    .contact-info h2 {
+        font-size: 1.65rem;
+    }
+
+    .hero-metrics {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .metric-divider {
+        display: none;
+    }
+
+    .pillar-card,
+    .plan-card,
+    .contact-form,
+    .step-card {
+        padding: 24px;
+    }
+
+    .ratio-4-5,
+    .ratio-4-3,
+    .ratio-16-9 {
+        min-height: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
